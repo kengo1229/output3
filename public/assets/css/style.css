@@ -1,0 +1,199 @@
+body {
+    margin: 0 auto;
+    width: 100%;
+    line-height: 120%;
+}
+
+h1 {
+    color: #545454;
+    font-size: 20px;
+}
+
+.site-width{
+    width: 1280px;
+    margin: 0 auto;
+}
+/* 日記部分 */
+.container{
+  width: 780px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  background: #f5f4f3;
+  border-radius: 3px;
+  padding: 15px;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+.container-small{
+  width: 580px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.container-head, .container-body, .container-foot{
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+/* ヘッダー部分 */
+.header{
+    height: 80px;
+    background: #333;
+    position: relative;
+    overflow: hidden;
+}
+.header .title{
+  display: inline-block;
+  position: absolute;
+  left: 650px;
+  top: 20px;
+  color: #fff;
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+}
+.button{
+  padding: 15px;
+  background-color: #5aaf5a;
+  border-radius: 3px;
+  position: absolute;
+  top: 18px;
+  right: 30px;
+}
+.button:hover{
+  cursor: pointer;
+}
+.button a{
+  text-decoration: none;
+  color: #fff;
+}
+/*コンテナ*/
+.ctn-form{
+    width: 500px;
+    margin: 50px auto;
+}
+
+.ctn-form h1{
+  text-align: center;
+  margin-bottom: 20px;
+}
+/*form*/
+form {
+    overflow: hidden;
+}
+form>table{
+    width: 100%;
+}
+form>table tr>td:first-child{
+    width: 40%;
+}
+.area-error-msg{
+    color: lightcoral;
+}
+input[type="text"],input[type="password"],input[type="email"],textarea{
+    background: #f5f4f3;
+    border: none;
+    width: 100%;
+}
+input[type="text"],input[type="password"],input[type="email"] {
+    color: #545454;
+    height: 60px;
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    border: none;
+    padding: 15px 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: #3d3938;
+    color: white;
+    float: right;
+    width: 150px;
+    font-size: 1em;
+}
+
+.form input[type="text"] {
+  color: #545454;
+  height: 40px;
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.form textarea {
+  resize: none;
+  color: #545454;
+  height: 100px;
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+
+}
+
+input[type="submit"]:hover {
+    background: #111;
+    cursor: pointer;
+}
+
+a {
+    color: #545454;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.err_msg {
+    color: #ff4d4b;
+}
+#footer{
+    width: 100%;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    background: #eee;
+}
+/* msg */
+.alert-msg{
+    display: none;
+    line-height: 40px;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    text-align: center;
+}
+.alert-msg.success{
+    background: #01b3e6;
+}
+.alert-msg.err{
+    background: #fe8a8b;
+}
+/*その他*/
+.vartical-center{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-right-right{
+  float: right;
+}
